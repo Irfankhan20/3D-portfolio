@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -81,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -109,62 +109,51 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "daisui",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Professional Course",
+    company_name: "Complete web development course with Jhankar Mahbub",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - Decembar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned full-stack web development, covering both front-end and back-end technologies.Gained hands-on experience with JavaScript, React, Node.js, and MongoDB. Completed several real-world projects, enhancing problem-solving and teamwork skills.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Bsc Honours in Physics",
+    company_name: "Mohammadpur Central University College",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: " 2019 - continue",
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studied core concepts of physics, including classical mechanics, quantum mechanics, and thermodynamics.Engaged in practical laboratory experiments to complement theoretical knowledge and develop analytical skills.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Higher Secondary School Certificate",
+    company_name: "Gouripur Govt College",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: " Agust 2017 - April 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Focused on science subjects, including Physics, Chemistry, Mathematics, and Biology.Developed a strong academic foundation and critical thinking skills through regular coursework and exams.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Secondary School Certificate",
+    company_name: "Gouripur R.K. Govt. high School",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2011 - Feb 2016",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studied core subjects including Mathematics, Science, and English, laying a solid academic foundation.Actively participated in school events and extracurricular activities, fostering teamwork and leadership skills.",
     ],
   },
 ];
