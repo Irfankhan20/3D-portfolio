@@ -27,7 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import lingobingo from "./lingobingo.png";
-import deliverytiger from "./deliverytiger.png";
+import homifystate from "./homifystate.png";
+
 import meetbox from "./meetbox.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -35,7 +36,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   meetbox,
-  deliverytiger,
+  homifystate,
   lingobingo,
   backend,
   creator,

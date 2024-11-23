@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  deliverytiger,
+  homifystate,
   html,
   css,
   reactjs,
@@ -252,9 +252,9 @@ const projects = [
     live_site_link: "https://assignment-eleven-website.web.app",
   },
   {
-    name: "DeliveryTiger",
+    name: "HomifyEstate",
     description:
-      "DeliveryTiger is a parcel delivery platform offering booking and tracking services. It features Firebase authentication for secure access, SSLCommerz for payment processing, a review system for customer feedback, a mail system for inquiries, and Toastify for real-time notifications.",
+      "HomifyEstate is a flat booking and rental platform created as a team project. It features Firebase authentication for security, SSLCommerz for payment processing, Toastify for real-time notifications, a review system and form for user feedback, and a mail system for customer inquiries.",
     tags: [
       {
         name: "react",
@@ -274,12 +274,10 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: deliverytiger,
-    frontend_github_link:
-      "https://github.com/Irfankhan20/delivery-tiger-client-site",
-    backend_github_link:
-      "https://github.com/Irfankhan20/delivery-tiger-server-site",
-    live_site_link: "https://fresh-glass.surge.sh/",
+    image: homifystate,
+    frontend_github_link: "https://github.com/Irfankhan20/homifyEsate-client",
+    backend_github_link: "https://github.com/Irfankhan20/homifyEstate-server",
+    live_site_link: "https://homifyestate-8556d.web.app/",
   },
 ];
 
