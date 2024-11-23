@@ -26,12 +26,17 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import lingobingo from "./lingobingo.png";
+import deliverytiger from "./deliverytiger.png";
+import meetbox from "./meetbox.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
+  meetbox,
+  deliverytiger,
+  lingobingo,
   backend,
   creator,
   mobile,
@@ -56,7 +61,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
 };

@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   typescript,
+  deliverytiger,
   html,
   css,
   reactjs,
@@ -19,10 +20,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  lingobingo,
   jobit,
   tripguide,
   threejs,
+  meetbox,
 } from "../assets";
 
 export const navLinks = [
@@ -187,67 +189,97 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LingoBingo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "LingoBingo is a Hindi learning website with Firebase authentication, interactive vocabulary games, and step-by-step lessons. It features a 'Punctuation Speak' tool for pronunciation practice and Toastify for real-time notifications, making learning Hindi engaging and effective for users at any level.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Daisyui",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: lingobingo,
+    frontend_github_link:
+      "https://github.com/Irfankhan20/lingo-bingo-dictionary",
+
+    backend_github_link:
+      "https://github.com/Irfankhan20/lingo-bingo-dictionary",
+
+    live_site_link: "https://lingobingo-hindi-learn.surge.sh/",
   },
   {
-    name: "Job IT",
+    name: "MeetBox",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "MeetBox is a where customers can order spicy food. It features Firebase authentication for secure access, menu details highlighting food benefits, a customer review system for feedback,a mail system for inquiries.Toastify ensures users receive instant notifications for a seamless experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "firebase",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "email.js",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: meetbox,
+    frontend_github_link:
+      "https://github.com/Irfankhan20/restaurant-food-management-client-site",
+
+    backend_github_link:
+      "https://github.com/Irfankhan20/restaurant-food-management-server-site",
+
+    live_site_link: "https://assignment-eleven-website.web.app",
   },
   {
-    name: "Trip Guide",
+    name: "DeliveryTiger",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "DeliveryTiger is a parcel delivery platform offering booking and tracking services. It features Firebase authentication for secure access, SSLCommerz for payment processing, a review system for customer feedback, a mail system for inquiries, and Toastify for real-time notifications.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "email.js",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: deliverytiger,
+    frontend_github_link:
+      "https://github.com/Irfankhan20/delivery-tiger-client-site",
+    backend_github_link:
+      "https://github.com/Irfankhan20/delivery-tiger-server-site",
+    live_site_link: "https://fresh-glass.surge.sh/",
   },
 ];
 
