@@ -103,7 +103,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          {/* name field  */}
+          {/* name field section  */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
@@ -116,7 +116,7 @@ const Contact = () => {
             />
           </label>
 
-          {/* email field  */}
+          {/* email field section */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
@@ -129,7 +129,7 @@ const Contact = () => {
             />
           </label>
 
-          {/* message field  */}
+          {/* message field section  */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
@@ -142,7 +142,7 @@ const Contact = () => {
             />
           </label>
 
-          {/* submit button  */}
+          {/* submit button section */}
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
