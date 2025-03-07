@@ -42,7 +42,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "MERN Developer",
           from_email: form.email,
-          to_email: "irfanhacks.web@gmail.com",
+          to_email: "md.irfankhanpathan75@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -103,6 +103,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
+          {/* name field  */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
@@ -114,6 +115,8 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
+
+          {/* email field  */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
@@ -125,6 +128,8 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
+
+          {/* message field  */}
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
@@ -137,6 +142,7 @@ const Contact = () => {
             />
           </label>
 
+          {/* submit button  */}
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"

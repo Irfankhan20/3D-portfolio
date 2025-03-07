@@ -26,6 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    // navbar
     <nav
       className={`${
         styles.paddingX
